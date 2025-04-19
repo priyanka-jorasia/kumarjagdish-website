@@ -760,7 +760,8 @@ strong {
   REVIEWS              
 -----------------------------------------*/
 .reviews-section {
-  background-color: #7c5c52;
+  
+  background: linear-gradient(to bottom right, #742c2e, #e0e0e0);
 }
 
 .reviews-block {
@@ -1232,4 +1233,33 @@ strong {
   width: 100%;            /* Fill the container */
   height: 100%;           /* Fill the container */
   border: none;          
+}
+
+.celeb-section {
+  background: linear-gradient(to bottom right, #742c2e, #e0e0e0);
+}
+
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  padding: 20px;
+}
+
+.photo-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  border: 10px solid #f8f8f8;  
+}
+
+.photo-grid img:hover {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  object-fit: cover;
+  border: 10px solid #985252;  
 }
